@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &685784779563549972
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1736405614868810396, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: colorPalette
+      value: 
+      objectReference: {fileID: 11400000, guid: 808c4a7354a05a745b1f7b1f6e853438, type: 2}
+    - target: {fileID: 2209669002311458656, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4967218582520511772, guid: 5844bc9b1fc4b4f46a5ba2f86a5bb0b6, type: 3}
+    - target: {fileID: 4129419370644876202, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0353867141354254d9371da65464018b, type: 2}
+    - target: {fileID: 5375119346329173569, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: noteText
+      value: This is a variant of the default button view, which overrides the mesh
+        used by KnobRound and the ColorPalette asset being used.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726974500652810899, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5838784969420080468, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_Name
+      value: ArcadeButtonView
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957958289861461443, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: colorPalette
+      value: 
+      objectReference: {fileID: 11400000, guid: 808c4a7354a05a745b1f7b1f6e853438, type: 2}
+    - target: {fileID: 7884075515413097686, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: colorPalette
+      value: 
+      objectReference: {fileID: 11400000, guid: 808c4a7354a05a745b1f7b1f6e853438, type: 2}
+    - target: {fileID: 8566381630290120584, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8566381630290120584, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8566381630290120584, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8566381630290120584, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8566381630290120584, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8566381630290120584, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8566381630290120584, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8566381630290120584, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8566381630290120584, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8566381630290120584, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8566381630290120584, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dfb2c102af7024d4fa62d7c783187ee6, type: 3}
