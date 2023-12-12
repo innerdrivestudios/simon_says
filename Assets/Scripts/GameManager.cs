@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
 	[SerializeField] private FloatSetting buttonAmount;
 	[SerializeField] private SimonSaysButtonController buttonControllerPrefab;
 	[SerializeField] private float buttonDistanceFromCenter;
+	[SerializeField] private int forcedFrameRate = -1;
 
 	[Tooltip("Only for testing purposes")] [SerializeField] private bool autoStart = false;
 
@@ -63,6 +64,8 @@ public class GameManager : MonoBehaviour
 
 	private void Awake()
 	{
+		if (forcedFrameRate > 0) Application.targetFrameRate = forcedFrameRate;
+
 		//Make sure we have instantiate the maximum amount of possible buttons
 		for (int i = 0; i < buttonAmount.maxValue; i++)
 		{

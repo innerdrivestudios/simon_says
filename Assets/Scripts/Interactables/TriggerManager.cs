@@ -22,7 +22,9 @@ public class TriggerManager : MonoBehaviour
 	{
 		//check what we are interacting with, ignoring rays that are aimed at any piece of UI
 		IInteractable newInteractable = null;
-		if (!EventSystem.current.IsPointerOverGameObject() && Physics.Raycast(pRay, out RaycastHit hitInfo, float.PositiveInfinity, layerMask)) {
+		if (!EventSystem.current.IsPointerOverGameObject(Input.touchSupported?Input.GetTouch(0).fingerId:-1) && 
+			Physics.Raycast(pRay, out RaycastHit hitInfo, float.PositiveInfinity, layerMask)
+			) {
 			newInteractable = hitInfo.rigidbody.GetComponent<IInteractable>();
 		}
 
